@@ -40,26 +40,31 @@
 	
 
 		<div class="container main-menu">
+
+			<button type="button" id="mobile-nav-toggle">
+				<!-- <i class="lnr lnr-menu"></i> --></button>
 			<div class="row align-items-center justify-content-center d-flex">	
 				    <nav id="nav-menu-container">
-				    <ul class="nav-menu">
+				    		<ul class="" style="touch-action: pan-y;" id="">
+
+				    <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
 				        <li class="teksti">
-				        	<a class="teksti" href="index.html">მთავარი</a>
+				        	<a class="teksti menu-active" href="index.html">მთავარი</a>
 				        </li>
 				        <li>
 				        </li>
 				        
 
-				        <li class="menu-has-children"><a href="">სუპერმარკეტები</a>
+				        <li class="menu-has-children"><a href="" class="sf-with-ul">სუპერმარკეტები</a>
 
 
 				            
-				            <ul>
-				            	<li class="#"><a href="#">"სამეფო"</a> 
-				            		<ul>	 
+				            <ul style="display: none;">
+				            	<li class="#"><a href="#" class="sf-with-ul">"სამეფო"</a> 
+				            		<ul style="display: none;">	 
 				            			
-						        <li class="#"><a href="">საცხობი</a>
-						            <ul>
+						        <li class="#"><a href="" class="sf-with-ul">საცხობი</a>
+						            <ul style="display: none;">
 						              <li><a href="#">ხაჭაპური</a></li>
 						              <li><a href="#">ლობიანი</a></li>
 						              <li><a href="#">იმერული</a></li>
@@ -68,8 +73,8 @@
 						              <li><a href="#">ჰოთდოგი</a></li>
 						            </ul>
 						        </li>
-						        <li class="sasmelebi"><a href="#">გამაგრილებელი სასმელები</a>
-						            <ul>
+						        <li class="sasmelebi"><a href="#" class="sf-with-ul">გამაგრილებელი სასმელები</a>
+						            <ul style="display: none;">
 						              <li><a href="#">არსი-კოლა</a></li>
 						              <li><a href="#">კოკა-კოლა</a></li>
 						              <li><a href="#">პეპსი</a></li>
@@ -78,13 +83,13 @@
 			
 						              
 						          </ul>
-						    </ul>
+						    </li></ul>
 
-				            	<li class="#"><a href="#">"მაგნიტი"</a> 
-				            		<ul>	 
+				            	</li><li class="#"><a href="#" class="sf-with-ul">"მაგნიტი"</a> 
+				            		<ul style="display: none;">	 
 				            			
-						        <li class="#"><a href="">საცხობი</a>
-						            <ul>
+						        <li class="#"><a href="" class="sf-with-ul">საცხობი</a>
+						            <ul style="display: none;">
 						              <li><a href="#">ხაჭაპური</a></li>
 						              <li><a href="#">ლობიანი</a></li>
 						              <li><a href="#">იმერული</a></li>
@@ -93,8 +98,8 @@
 						              <li><a href="#">ჰოთდოგი</a></li>
 						            </ul>
 						        </li>
-						        <li class="sasmelebi"><a href="#">გამაგრილებელი სასმელები</a>
-						            <ul>
+						        <li class="sasmelebi"><a href="#" class="sf-with-ul">გამაგრილებელი სასმელები</a>
+						            <ul style="display: none;">
 						              <li><a href="#">არსი-კოლა</a></li>
 						              <li><a href="#">კოკა-კოლა</a></li>
 						              <li><a href="#">პეპსი</a></li>
@@ -103,13 +108,13 @@
 			
 						              
 						          </ul>
-						    </ul>
+						    </li></ul>
 
 
-				            	<li class="#"><a href="#">"მილაძეები"</a> 
-				            		<ul>	 
-						        <li class="#"><a href="">საცხობი</a>
-						            <ul>
+				            	</li><li class="#"><a href="#" class="sf-with-ul">"მილაძეები"</a> 
+				            		<ul style="display: none;">	 
+						        <li class="#"><a href="" class="sf-with-ul">საცხობი</a>
+						            <ul style="display: none;">
 						              <li><a href="#">ხაჭაპური</a></li>
 						              <li><a href="#">ლობიანი</a></li>
 						              <li><a href="#">იმერული</a></li>
@@ -118,8 +123,8 @@
 						              <li><a href="#">ჰოთდოგი</a></li>
 						            </ul>
 						        </li>
-						        <li class="sasmelebi"><a href="#">გამაგრილებელი სასმელები</a>
-						            <ul>
+						        <li class="sasmelebi"><a href="#" class="sf-with-ul">გამაგრილებელი სასმელები</a>
+						            <ul style="display: none;">
 						              <li><a href="#">არსი-კოლა</a></li>
 						              <li><a href="#">კოკა-კოლა</a></li>
 						              <li><a href="#">პეპსი</a></li>
@@ -140,7 +145,7 @@
 
 				
 				        			           	
-				        <li> <a href="#stop">კონტაქტი</a> </li>
+				        </li><li> <a href="#stop">კონტაქტი</a> </li>
 				        <li> <a href="register.html" target="blank"> რეგისტრაცია</a></li> 
 				       <li><a href="login.html" target="blank">ავტორიზაცია</a></li>	
 
@@ -455,6 +460,7 @@
 	<script src="js/owl.carousel.min.js"></script>			
     <script src="js/isotope.pkgd.min.js"></script>								
     <script src="js/mail-script.js"></script>	
-	<script src="js/main.js"></script>	
+	<script src="js/main.js"></script>
+
 </body>
 </html>
