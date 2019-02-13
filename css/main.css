@@ -121,7 +121,7 @@ html{
     background: #9e9e9e4f;
 }
 .mtavarilogo{
-	margin-left: -130px;
+	margin-left: -48px;
 	margin-bottom: -39px;
 	width:120px;
 	height: 110px;
@@ -1590,7 +1590,7 @@ del {
 	font-weight: 900
 }
 
-@media (max-width: 667px) {
+@media (max-width: 991px) {
 	#mobile-nav-toggle {
 		display: inline
 	}
